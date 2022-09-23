@@ -4,6 +4,8 @@
 @import 'newsletter.css';
 @import 'variable_anim.css';
 @import 'footer.css';
+@import 'responsive';
+
 
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -15,6 +17,18 @@
     scroll-padding-top: 2rem;
     scroll-behavior: smooth;
 }
+
+
+/* Custom scroll Bar */
+html::-webkit-scrollbar {
+    width: 0.5rem;
+    background: var(--text-color);
+}
+html::-webkit-scrollbar-thumb {
+    width: 0.5rem;
+    background: var(--main-color);
+}
+
 
 /* Padrão para todas as Sections */
 section {

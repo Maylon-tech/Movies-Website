@@ -1,3 +1,24 @@
+const header = document.querySelector('header')
+const menu = document.querySelector('#menu-icon')
+const navbar = document.querySelector('.navbar')
+
+// Scroll -- show Header
+window.addEventListener('scroll', () => {
+  header.classList.toggle('shadow', window.scrollY > 0)
+})
+
+
+// Show Menu Button action
+menu.addEventListener("click", () => {
+  menu.classList.toggle('bx-x')
+  navbar.classList.toggle("active")
+})
+
+window.onscroll = () => {
+  menu.classList.remove('bx-x')
+  navbar.classList.remove('active')
+}
+
 
 
 //Swiper Auto of Home section
@@ -43,8 +64,4 @@ var swiper = new Swiper(".home", {
     },
 })
 
-const header = document.querySelector('header')
 
-window.addEventListener('scroll', () => {
-  header.classList.toggle('shadow', window.scrollY > 0)
-})
