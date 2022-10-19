@@ -65,3 +65,11 @@ var swiper = new Swiper(".home", {
 })
 
 
+// headedr Sign in button - Modal.
+const botaoSignIn = document.getElementById("btn-modal_sign")
+const modal = document.querySelector('.modalSignIn')
+
+
+botaoSignIn.addEventListener("click", () => {
+    modal.classList.toggle("show")
+})

@@ -33,11 +33,33 @@
             <li><a href="#coming">Coming</a></li>
             <li><a href="#newsletter">Newsletter</a></li>
         </ul>
-        <a href="#" class="btn">Sign In</a>
+
+        <a href="#" class="btn" id="btn-modal_sign">Sign In</a>
+
     </header>
 
     <!-- Home -->
     <section class="home swiper" id="home">
+
+        <!-- Modal Sign In  -->
+        <div class="modalSignIn">
+            <h1>Sign In Now!</h1>
+            <form action="#">
+                <div class="form-control">
+                    <label for="user">Username:</label>
+                    <input type="text" id="user" placeholder="Username">
+                </div>
+                <div class="form-control">
+                    <label for="pass">Password:</label>
+                    <input type="password" id="pass" placeholder="Password">
+                </div>
+                <div class="buttons">
+                    <button type="submit" id="enter">Log In</button>
+                    <button type="button" id="cancel">Cancel</button>
+                </div>
+                
+            </form>
+        </div>
 
         <div class="swiper-wrapper">
 
