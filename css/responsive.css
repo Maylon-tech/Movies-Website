@@ -1,13 +1,15 @@
 @import 'variable_anim.css';
 
-@media (max-width:1080px) {
+/*  Laptop Layout  */
+@media (max-width:1024px) {
 
     .home-text {
         padding: 0 100px;
     }
 }
 
-@media (max-width:991px) {
+/*  tablet - IPAD  */
+@media (max-width: 990px) {
     header {
         padding: 18px 4%;
     }
@@ -22,7 +24,7 @@
     }
 }
   
-@media (max-width:774px) {
+@media (max-width:768px) {
     header {
         padding: 12px 4%;
     }
@@ -80,7 +82,7 @@
 }
 
 
-@media (max-width: 472px) {
+@media (max-width: 425px) {
     .newsletter form .email {
         width: auto;
     }

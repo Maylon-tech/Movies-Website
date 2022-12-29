@@ -61,7 +61,10 @@ header.shadow {
 header.shadow a {
     color: var(--text-color);
 }
-
+#hide-icon {
+    border: 2px solid red;
+    display: none;
+}
 .logo {
     font-size: 1.4rem;
     font-weight: 700;
